@@ -1,0 +1,12 @@
+.tsBodyMBold,
+.tsBodyMMedium {
+    font-weight: var(--fontMedium);
+}
+
+.tsBodyM,
+.tsBodyMBold,
+.tsBodyMMedium {
+    font-size: var(--bodyMFont);
+    letter-spacing: var(--letter02);
+    line-height: var(--bodyMLine);
+}

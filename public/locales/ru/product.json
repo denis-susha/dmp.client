@@ -1,0 +1,35 @@
+{
+    "seoTitle": "{{name}}, купить и скачать на Filezon анонимно за криптовалюту ({{id}})",
+    "seoDescr": "{{name}} – покупайте на Filezon из любой точки мира, быстро, безопасно, анонимно! Большой выбор цифрового контента, уникальные товары и данные. ({{id}})",
+    "buyButtonAnonymusTitle": "Перейти",
+    "buyButtonAuthenticatedTitle": "Добавить в корзину",
+    "productsNotFound": "Простите, по вашему запросу товаров сейчас нет.",
+    "filterError": "По вашим параметрам ничего не нашлось. Попробуйте сбросить фильтры.",
+    "resetFilters": "Сбросить фильтры",
+    "productSortingType": {
+        "New": "Новинки",
+        "Price": "Дешевле",
+        "PriceDesc": "Дороже"
+    },
+    "productFeatureBool": {
+        "true": "Да",
+        "false": "Нет"
+    },
+    "rangeFrom": "От",
+    "rangeTo": "До",
+    "reviews": "отзывов",
+    "questions": "вопросов",
+    "aboutProduct": "О товаре",
+    "goToDescription": "Перейти к описанию",
+    "descriptionHeader": "Описание товара",
+    "priceTooltip": "Цена указана в долларах США. Оплата производится в выбранной криптовалюте по актуальному курсу на момент оплаты.",
+    "addToCartBottomTitle": "Будет доступен для скачивания после оплаты",
+    "seller": "Продавец",
+    "ratingTooltip": "Рейтинг строится из средней оценки товаров продавца",
+    "productsRating": " рейтинг товаров",
+    "productIdCopied": "Артикул скопирован",
+    "productNumberTitle": "Артикул: ",
+    "productLinkCopied": "Ссылка на товар скопирована",
+    "share": "Поделиться",
+    "buyOneClick": "Купить в один клик"
+}

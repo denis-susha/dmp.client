@@ -1,0 +1,6 @@
+{
+    "notFoundHdr": "The page you are looking for does not exist.",
+    "goBackHome": "Go Back Home",
+    "serverError": "Server Error",
+    "internalServerErrorTitle": "Hm... Unfortunately, the server crashed. Apologies."
+}

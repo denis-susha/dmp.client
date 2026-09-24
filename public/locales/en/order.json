@@ -1,0 +1,27 @@
+{
+    "paymentStatus": {
+        "InProgress": "Waiting for payment",
+        "Complete": "Paid",
+        "PaidPartial": "Partially paid",
+        "Expired": "Overdue payment",
+        "Refunded": "Refunded",
+        "PaidError": "Payment error"
+    },
+    "paymentExpired": "Reason: Payment time has expired",
+    "contactSeller": "Contact the seller",
+    "rateProduct": "Rate the product",
+    "orderDated": "Order dated ",
+    "toListOrders": "To the list of orders",
+    "download": "Download",
+    "yourOrder": "Your order",
+    "byCryptocurrency": "by cryptocurrency",
+    "amount": "Amount",
+    "orderNotPaidTitle": "will be charged ",
+    "orderPaidTitle": "paid ",
+    "status": "Status",
+    "pageHeader": "Orders",
+    "noOrdersHdr": "You have no orders yet",
+    "noOrdersTitle": "When they appear, they will be displayed here.",
+    "toShopping": "To shopping",
+    "goToPayment": "Go to payment"
+}

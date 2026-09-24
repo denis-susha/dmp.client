@@ -1,0 +1,59 @@
+{
+    "more": "More",
+    "collapse": "Collapse",
+    "catalog": "Catalog",
+    "fileSize": {
+        "bytes": "B",
+        "kb": "Kb",
+        "mb": "Mb",
+        "gb": "Gb"
+    },
+    "copy": "Copy",
+    "copied": "Copied to Clipboard",
+    "num": "#",
+    "goToHome": "Home",
+    "category": "Category",
+    "language": {
+        "en": "English",
+        "ru": "Русский"
+    },
+    "searchBarPlaceholder": "Search on Filezon",
+    "myStore": "My store",
+    "becomeSeller": "Become a seller",
+    "help": "Help",
+    "change": "Change",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "close": "Close",
+    "footer": {
+        "help": "Help",
+        "howToOrder": "How to order",
+        "paymentMethods": "Payment methods",
+        "cryptocurrency": "Cryptocurrency",
+        "receiptProducts": "Receipt of product",
+        "refund": "Refund",
+        "earn": "Make money with Filezon",
+        "marketplace": "Filizon marketplace",
+        "blog": "Blog"
+    },
+    "recommended": "Recommended",
+    "yourFavorites": "Your Favorites",
+    "youveSeen": "You've seen",
+    "signIn": "Sign in",
+    "orders": "Orders",
+    "favorites": "Favorites",
+    "cart": "Cart",
+    "signInTitle": "Log in to shop, track orders and enjoy personalized discounts and points.",
+    "signInTitle2": "Once logged in, you will be able to create a seller account.",
+    "signInRegister": "Sign in or register",
+    "metaPage": " | Page ",
+    "seoInnerPage": "Filezon.com - ",
+    "errors": {
+        "common": "An error has occurred. Try again or try again later"
+    },
+    "personalAccount": "Personal account",
+    "messages": "Messages",
+    "further": "Further",
+    "beginning": "Beginning"
+}

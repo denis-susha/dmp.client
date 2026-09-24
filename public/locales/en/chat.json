@@ -1,0 +1,13 @@
+{
+    "pageHeader": "Messages",
+    "chatHeader": "Filezon support",
+    "chatSubject": "Welcome!",
+    "botName": "Filezon Bot",
+    "messageText1": "Hi, {{name}}!",
+    "messageText2": "Welcome to Filezon, an international digital goods platform.",
+    "messageText3": "🔐 Your account has been successfully created.",
+    "messageText4": "💼 You are now free to buy.",
+    "messageText5": "Need help getting started? We are always ready to help.",
+    "messageText6": "Thank you for choosing Filezon - we look forward to having you with us!",
+    "messageText7": "Regards, Filezon Team"
+}

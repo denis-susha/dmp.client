@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://filezon.com/sitemaps/sitemap_site.xml</loc>
+    <lastmod>2025-06-05</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://filezon.com/sitemaps/sitemap_category.xml</loc>
+    <lastmod>2025-06-05</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://filezon.com/sitemaps/products/sitemap_product_1.xml</loc>
+    <lastmod>2025-06-05</lastmod>
+  </sitemap>  
+</sitemapindex>

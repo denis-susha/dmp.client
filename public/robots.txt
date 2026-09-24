@@ -1,0 +1,22 @@
+User-Agent: *
+Allow: /
+Allow: /*?page
+Allow: /_next/static/
+Disallow: /_next/
+Disallow: /cart/
+Disallow: /gocheckout/
+Disallow: /my/
+Disallow: /payment/
+Disallow: /search/
+Disallow: /ru/_next/
+Disallow: /ru/cart/
+Disallow: /ru/gocheckout/
+Disallow: /ru/my/
+Disallow: /ru/payment/
+Disallow: /ru/search/
+Disallow: /category/[slug]
+Disallow: ru/category/[slug]
+Disallow: /product/[slug]
+Disallow: ru/product/[slug]
+
+Sitemap: https://filezon.com/sitemaps/sitemap.xml

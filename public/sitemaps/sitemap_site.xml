@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://filezon.com</loc>
+    <lastmod>2025-06-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://filezon.com"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://filezon.com/ru"/>
+  </url>
+  <url>
+    <loc>https://filezon.com/category</loc>
+    <lastmod>2025-06-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://filezon.com/category"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://filezon.com/ru/category"/>
+  </url>
+  <url>
+    <loc>https://filezon.com/help</loc>
+    <lastmod>2025-06-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://filezon.com/help"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://filezon.com/ru/help"/>
+  </url>
+  <url>
+    <loc>https://filezon.com/seller</loc>
+    <lastmod>2025-06-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://filezon.com/seller"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://filezon.com/ru/seller"/>
+  </url>
+  <url>
+    <loc>https://filezon.com/blog</loc>
+    <lastmod>2025-06-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://filezon.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://filezon.com/ru/blog"/>
+  </url>
+  <url>
+    <loc>https://filezon.com/blog/how-to-monetize-your-software-with-zero-censorship</loc>
+    <lastmod>2025-06-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://filezon.com/blog/how-to-monetize-your-software-with-zero-censorship"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://filezon.com/ru/blog/how-to-monetize-your-software-with-zero-censorship"/>
+  </url>
+  <url>
+    <loc>https://filezon.com/blog/get-a-dollar1-bonus-for-every-product-you-list-on-filezon</loc>
+    <lastmod>2025-06-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://filezon.com/blog/get-a-dollar1-bonus-for-every-product-you-list-on-filezon"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://filezon.com/ru/blog/get-a-dollar1-bonus-for-every-product-you-list-on-filezon"/>
+  </url>
+</urlset>

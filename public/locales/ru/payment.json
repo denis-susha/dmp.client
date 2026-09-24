@@ -1,0 +1,63 @@
+{
+    "seoTitle": "Оплата заказа",
+    "paidPartialNotification": "Получена частична оплата.",
+    "paymentMethodLabel": {
+        "BTC": "BTC",
+        "Lightning": "\u26A1 (Lightning)",
+        "TRX": "TRX",
+        "USDT_TRC20": "USDT (TRC-20)",
+        "BCH": "BCH",
+        "BNB": "BNB",
+        "USDT_BEP20": "USDT (BEP-20)",
+        "ETH": "ETH",
+        "USDT_ERC20": "USDT (ERC-20)",
+        "POL": "POL (Polygon)",
+        "USDT_MATIC": "USDT (MATIC)",
+        "XMR": "XMR (Monero)",
+        "LTC": "LTC",
+        "USDC_ERC20": "USDC (ERC-20)"
+    },
+    "cryptocurrency": {
+        "BTC": "BTC",
+        "TRX": "TRX",
+        "USDT_TRC20": "USDT",
+        "BCH": "BCH",
+        "BNB": "BNB",
+        "USDT_BEP20": "USDT",
+        "ETH": "ETH",
+        "USDT_ERC20": "USDT",
+        "POL": "POL",
+        "USDT_MATIC": "USDT",
+        "XMR": "XMR",
+        "LTC": "LTC",
+        "USDC_ERC20": "USDC"
+    },
+    "pageHeader": "Оплата заказа #{{orderId}}",
+    "payWith": "Оплатить с помощью",
+    "orderAmount": "Сумма заказа",
+    "alreadyPaid": "Уже оплачено",
+    "due": "К оплате",
+    "walletError": {
+        "incorrect": "Необходимо указать корректный адрес кошелька"
+    },
+    "scanTabTitle": "СКАНИРОВАТЬ",
+    "copyTabTitle": "КОПИРОВАТЬ",
+    "addressTooltip": "Потому что мы хотим гарантировать беспроблемный процесс возврата денег, если вы захотите их вернуть.<br />Мы не принимаем деньги с Binance и других бирж, поэтому сначала вам нужно отправить средства на свой собственный кошелек.<br />Запрос адреса вашего кошелька помогает предотвратить небрежность пользователей, отправляющих нам деньги с бирж, что часто приводит к неудачным платежам с истекшим сроком действия.<br />Только средства, отправленные с указанного адреса кошелька, будут учтены в вашем счете.",
+    "askingAddress": "Почему мы спрашиваем адрес вашего кошелька?",
+    "chooseWayToPay": "Выберите способ оплаты",
+    "enterAddress": "Введите адрес, с которого вы будете отправлять",
+    "addressLabel": "Адрес вашего кошелька *",
+    "addressBtn": "Продолжить с адресом",
+    "amount": "Сумма",
+    "address": "Адрес",
+    "nodeInfo": "Node Info",
+    "paymentLink": "Ссылка на оплату",
+    "lightningInvoice": "INVOICE",
+    "lightningNodeInfo": "NODE INFO",
+    "walletBtnTitle": "ОТКРЫТЬ В КОШЕЛЬКЕ",
+    "recommendedFee": "Рекомендуемая комиссия",
+    "timelineTitle": {
+        "soonEnd": "Счет скоро истекает...",
+        "awaitingPayment": "Ожидаем оплаты..."
+    }
+}

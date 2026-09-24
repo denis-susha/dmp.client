@@ -1,0 +1,21 @@
+{
+    "nickname": "Nickname",
+    "invalidNickname": "The value must be between 3 and 200 characters and consist of Latin letters or numbers.",
+    "changeData": "Change data",
+    "accountingData": "Accounting data",
+    "accountingDataTitle": "Here you can edit your information about yourself and add missing information",
+    "email": "E-mail",
+    "pageHeader": "Your Filezon profile",
+    "accountManagement": "Account management",
+    "logOut": "Log out of the account",
+    "logOutModalHeader": "Logging out of the account",
+    "logOutModalTitle": "Do you really want to log out of your account?",
+    "logOutBtn": "Log out",
+    "deleteAccount": "Delete account",
+    "delAccWarning": "Please note: account recovery is not possible",
+    "delAccTitle": "The account and all associated data will be deleted",
+    "delAccList1": "• Order history, all product lists and other data will be lost",
+    "delAccList2": "• All funds on the balance sheet, if any, will be lost",
+    "delAccList3": "• You will permanently lose access to the items you purchased",
+    "accountDeletion": "Account deletion"
+}

@@ -1,0 +1,59 @@
+{
+    "more": "Еще",
+    "collapse": "Свернуть",
+    "catalog": "Каталог",
+    "fileSize": {
+        "bytes": "Б",
+        "kb": "Кб",
+        "mb": "Мб",
+        "gb": "Гб"
+    },
+    "copy": "Скопировать",
+    "copied": "Скопировано в буфер",
+    "num": "№",
+    "goToHome": "На главную",
+    "category": "Категория",
+    "language": {
+        "en": "English",
+        "ru": "Русский"
+    },
+    "searchBarPlaceholder": "Искать на Filezon",
+    "myStore": "Мой магазин",
+    "becomeSeller": "Стать продавцом",
+    "help": "Помощь",
+    "change": "Изменить",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "continue": "Продолжить",
+    "close": "Закрыть",
+    "footer": {
+        "help": "Помощь",
+        "howToOrder": "Как сделать заказ",
+        "paymentMethods": "Методы оплаты",
+        "cryptocurrency": "Криптовалюта",
+        "receiptProducts": "Получение товара",
+        "refund": "Возврат",
+        "earn": "Зарабатывать с Filezon",
+        "marketplace": "Filizon маркетплейс",
+        "blog": "Блог"
+    },
+    "recommended": "Рекомендуем",
+    "yourFavorites": "Ваше Избранное",
+    "youveSeen": "Вы смотрели",
+    "signIn": "Войти",
+    "orders": "Заказы",
+    "favorites": "Избранное",
+    "cart": "Корзина",
+    "signInTitle": "Войдите, чтобы делать покупки, отслеживать заказы и пользоваться персональными скидками и баллами.",
+    "signInTitle2": "После входа вы сможете создать аккаунт продавца.",
+    "signInRegister": "Войти или зарегистрироваться",
+    "metaPage": " | Страница ",
+    "seoInnerPage": "Filezon.com - ",
+    "errors": {
+        "common": "Произошла ошибка. Повторите попытку или попробуйте позже"
+    },
+    "personalAccount": "Личный кабинет",
+    "messages": "Сообщения",
+    "further": "Дальше",
+    "beginning": "В начало"
+}

@@ -1,0 +1,27 @@
+{
+    "paymentStatus": {
+        "InProgress": "Ожидает оплаты",
+        "Complete": "Оплачен",
+        "PaidPartial": "Частично оплачен",
+        "Expired": "Просроченная оплата",
+        "Refunded": "Возврат",
+        "PaidError": "Ошибка оплаты"
+    },
+    "paymentExpired": "Причина: Время оплаты истекло",
+    "contactSeller": "Связаться с продавцом",
+    "rateProduct": "Оценить товар",
+    "orderDated": "Заказ от ",
+    "toListOrders": "К списку заказов",
+    "download": "Скачать",
+    "yourOrder": "Ваш заказ",
+    "byCryptocurrency": "Криптовалютой",
+    "amount": "Сумма",
+    "orderNotPaidTitle": "к оплате ",
+    "orderPaidTitle": "оплачено ",
+    "status": "Статус",
+    "pageHeader": "Заказы",
+    "noOrdersHdr": "У вас пока нет заказов",
+    "noOrdersTitle": "Когда появятся, будут отображаться здесь.",
+    "toShopping": "К покупкам",
+    "goToPayment": "Перейти к оплате"
+}

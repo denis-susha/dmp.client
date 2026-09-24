@@ -1,0 +1,15 @@
+export enum CryptocurrencyEnum {
+    BTC = "BTC",
+    TRX = "TRX",
+    USDT_TRC20 = "USDT_TRC20",
+    BCH = "BCH",
+    BNB = "BNB",
+    USDT_BEP20 = "USDT_BEP20",
+    ETH = "ETH",
+    USDT_ERC20 = "USDT_ERC20",
+    POL = "POL",
+    USDT_MATIC = "USDT_MATIC",
+    XMR = "XMR",
+    LTC = "LTC",
+    USDC_ERC20 = "USDC_ERC20",
+}

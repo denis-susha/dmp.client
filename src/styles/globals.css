@@ -1,0 +1,457 @@
+@import "tailwindcss";
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentcolor);
+    }
+}
+
+@utility text-balance {
+    text-wrap: balance;
+}
+
+@layer utilities {
+    :root {
+        --background-rgb: 255, 255, 255;
+        --font-size: 14px;
+        --z-index-popover: 500;
+        --gap: 24px;
+        --mobile-gap: 6px;
+        --margin-size: 24px;
+        --desktop-screen-default: 1472px;
+        --desktop-padding-default: 28px;
+        --mobile-padding-default: 8px;
+        --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+        --mainFont: var(--font-jost), "arial", "sans-serif";
+        --fontMedium: 500;
+        --bodyMLine: 18px;
+        --letter02: 0.2px;
+        --bodyMFont: 14px;
+        --desktop-screen-s: 1200px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --foreground-rgb: 0, 0, 0;
+            --background-start-rgb: 0, 0, 0;
+            --background-end-rgb: 0, 0, 0;
+        }
+    }
+
+    body {
+        color: rgb(var(--foreground-rgb));
+        background: rgb(var(--background-rgb));
+        font-size: var(--font-size);
+        font-family: var(--font-jost), "arial", "sans-serif";
+    }
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.custom-scrollbar {
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: transparent;
+        border-radius: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(204, 214, 228, 0.6);
+    }
+
+    ::-webkit-scrollbar-thumb,
+    ::-webkit-scrollbar-track {
+        border-radius: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}
+
+.tsHeadline800XxLarge {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    line-height: 44px;
+}
+
+.tsHeadline700XLarge {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 36px;
+}
+
+.tsHeadline600Medium {
+    line-height: 30px;
+}
+
+.tsHeadline600Large,
+.tsHeadline600Medium {
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.tsHeadline600Large {
+    line-height: 32px;
+}
+
+.tsHeadline550Medium {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+}
+
+.tsHeadline500Medium {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+}
+
+.tsHeadline500XMedium {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    line-height: 26px;
+}
+
+.tsHeadline400Small {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+.tsHeadline300XSmall {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.tsHeadlineNumeric800XxLarge {
+    font-size: 40px;
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 44px;
+}
+
+.tsHeadlineNumeric700XLarge {
+    font-size: 32px;
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 36px;
+}
+
+.tsHeadlinePromo500Medium {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.tsHeadlinePromo400Small {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+.tsHeadlineCompact400Small {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+}
+
+.tsHeadlineCompact400Medium {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.tsBody600Medium {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 26px;
+}
+
+.tsBody500Medium {
+    line-height: 24px;
+}
+
+.tsBody500Large,
+.tsBody500Medium {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.tsBody500Large {
+    line-height: 22px;
+}
+
+.tsBody500Small {
+    font-size: 16px;
+}
+
+.tsBody400Large,
+.tsBody500Small {
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 22px;
+}
+
+.tsBody400Large {
+    font-size: 14px;
+}
+
+.tsBody400Small {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.tsBody300XSmall,
+.tsBody400Small {
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.tsBody300XSmall {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.tsBody200XSmall {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 14px;
+}
+
+.tsBodyAccent500Medium {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+}
+
+.tsBodyAccent400Small {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+.tsBodyAccent300XSmall {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 16px;
+}
+
+.tsBodyAccent250Caption {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.tsBodyControl700XLarge {
+    line-height: 28px;
+}
+
+.tsBodyControl700Large,
+.tsBodyControl700XLarge {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.tsBodyControl700Large {
+    line-height: 20px;
+}
+
+.tsBodyControl600Large {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    line-height: 26px;
+}
+
+.tsBodyControl500Medium {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+}
+
+.tsBodyControl400Small {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+.tsBodyControl300XSmall {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 16px;
+}
+
+.tsBodyNumeric500Medium {
+    font-size: 16px;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.tsBodyNumeric400Small {
+    font-size: 14px;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.tsBodyNumeric300XSmall {
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.tsBodyNumeric200XSmall {
+    font-size: 10px;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+
+.tsBodyPromo300XSmall {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 16px;
+}
+
+.tsCompact500Medium {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+.tsCompact400Large {
+    line-height: 18px;
+}
+
+.tsCompact400Large,
+.tsCompact400Small {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.tsCompact400Small {
+    line-height: 16px;
+}
+
+.tsCompact300XSmall {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 14px;
+}
+
+.tsCompactControl500Medium {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+.tsCompactControl400Small {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 16px;
+}
+
+.tsCompactControl300XSmall {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 14px;
+}
+
+.tsKeyPromo700Large,
+.tsKeyPromo700XLarge {
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    line-height: 88px;
+}
+
+.tsKeyPromo600XLarge {
+    font-style: italic;
+}
+
+.tsKeyPromo600Large,
+.tsKeyPromo600XLarge {
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    line-height: 72px;
+}
+
+.tsKeyPromo500Medium {
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 72px;
+}

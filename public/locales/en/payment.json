@@ -1,0 +1,63 @@
+{
+    "seoTitle": "Order payment",
+    "paidPartialNotification": "Получена частична оплата.",
+    "paymentMethodLabel": {
+        "BTC": "BTC",
+        "Lightning": "\u26A1 (Lightning)",
+        "TRX": "TRX",
+        "USDT_TRC20": "USDT (TRC-20)",
+        "BCH": "BCH",
+        "BNB": "BNB",
+        "USDT_BEP20": "USDT (BEP-20)",
+        "ETH": "ETH",
+        "USDT_ERC20": "USDT (ERC-20)",
+        "POL": "POL (Polygon)",
+        "USDT_MATIC": "USDT (MATIC)",
+        "XMR": "XMR (Monero)",
+        "LTC": "LTC",
+        "USDC_ERC20": "USDC (ERC-20)"
+    },
+    "cryptocurrency": {
+        "BTC": "BTC",
+        "TRX": "TRX",
+        "USDT_TRC20": "USDT",
+        "BCH": "BCH",
+        "BNB": "BNB",
+        "USDT_BEP20": "USDT",
+        "ETH": "ETH",
+        "USDT_ERC20": "USDT",
+        "POL": "POL",
+        "USDT_MATIC": "USDT",
+        "XMR": "XMR",
+        "LTC": "LTC",
+        "USDC_ERC20": "USDC"
+    },
+    "pageHeader": "Payment for order #{{orderId}}",
+    "payWith": "Pay with",
+    "orderAmount": "Order amount",
+    "alreadyPaid": "Already paid",
+    "due": "Due",
+    "walletError": {
+        "incorrect": "Correct wallet address must be specified"
+    },
+    "scanTabTitle": "SCAN",
+    "copyTabTitle": "COPY",
+    "addressTooltip": "Because we want to guarantee a smooth refund process in case you want to get your money back.<br />We do not accept money from Binance and other exchanges, so you need to send your funds to your own wallet first.<br />Asking for your wallet address helps to prevent careless users sending us money from exchanges which often results in failed expired payments.<br />Only funds sent from the specified wallet address will be taken into account for your invoice.",
+    "askingAddress": "Why are we asking for your wallet address?",
+    "chooseWayToPay": "Choose the way to pay",
+    "enterAddress": "Enter the address you will send from",
+    "addressLabel": "Your wallet address *",
+    "addressBtn": "Continue with address",
+    "amount": "Amount",
+    "address": "Address",
+    "nodeInfo": "Node Info",
+    "paymentLink": "Payment Link",
+    "lightningInvoice": "INVOICE",
+    "lightningNodeInfo": "NODE INFO",
+    "walletBtnTitle": "OPEN IN WALLET",
+    "recommendedFee": "Recommended fee",
+    "timelineTitle": {
+        "soonEnd": "Invoice expiring soon...",
+        "awaitingPayment": "Awaiting payment..."
+    }
+}

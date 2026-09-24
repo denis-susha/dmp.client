@@ -1,0 +1,35 @@
+{
+    "seoTitle": "{{name}}, buy and download on Filezon anonymously by cryptocurrency ({{id}})",
+    "seoDescr": "{{name}} - buy on Filezon from anywhere in the world, fast, safe, anonymous! Large selection of digital content, unique products and data. ({{id}})",
+    "buyButtonAnonymusTitle": "Go to",
+    "buyButtonAuthenticatedTitle": "Add to cart",
+    "productsNotFound": "Sorry, there are no products available for your request at this time.",
+    "filterError": "There's nothing matching your parameters. Try resetting the filters.",
+    "resetFilters": "Reset filters",
+    "productSortingType": {
+        "New": "Novelties",
+        "Price": "Cheaper",
+        "PriceDesc": "Expensive"
+    },
+    "productFeatureBool": {
+        "true": "Yes",
+        "false": "No"
+    },
+    "rangeFrom": "From",
+    "rangeTo": "To",
+    "reviews": "reviews",
+    "questions": "questions",
+    "aboutProduct": "About the product",
+    "goToDescription": "Go to description",
+    "descriptionHeader": "Product description",
+    "priceTooltip": "The price is specified in US dollars. Payment is made in the selected cryptocurrency at the current exchange rate at the time of payment.",
+    "addToCartBottomTitle": "Will be available for download after payment",
+    "seller": "Seller",
+    "ratingTooltip": "The rating is built from the average rating of the seller's items",
+    "productsRating": " product rating",
+    "productIdCopied": "Product number copied",
+    "productNumberTitle": "Product number: ",
+    "productLinkCopied": "The link to the product is copied",
+    "share": "Share",
+    "buyOneClick": "Buy in one click"
+}
